@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 20 Elements HTML</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">20 ELEMENTS HTML</h1> <br>
+
+    <table>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 0 auto;
+            }
+            
+            th,
+            td {
+                border: 1px solid black;
+                padding: 10px;
+            }
+            
+            th {
+                text-align: center;
+                background-color: rgb(244, 195, 160);
+            }
+            
+            td:nth-child(5) {
+                text-align: justify;
+            }
+            
+            td:nth-child(1),
+            td:nth-child(2),
+            td:nth-child(3),
+            td:nth-child(4) {
+                text-align: center;
+            }
+        </style>
+
+        <tbody>
+            <tr>
+                <th>No </th>
+                <th>Tag </th>
+                <th>Command</th>
+                <th>Result</th>
+                <th>Explain</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>label</td>
+                <td>
+                    <pre>&lt;label for=""&gt;This is label&lt;/label&gt;</pre>
+                </td>
+                <td><label for="">Ini label</label></td>
+                <td>Label adalah elemen untuk menambahkan label/teks dalam suatu elemen formulir </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>input</td>
+                <td>
+                    <pre>&lt;input type="text"placeholder="Input your name"&gt;</pre>
+                </td>
+                <td><input type="text" placeholder="Input your name"></td>
+                <td>input untuk user dapat mengisi suatu konten secara opsional tergantung user. </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>image</td>
+                <td>
+                    <pre>&lt;img src="Logo ipb.jpeg" alt=""&gt;</pre>
+                </td>
+                <td><img src="Logo ipb.jpeg" alt="Logo IPB" widht="100" height="100"></td>
+                <td>image untuk menambahkan gambar pada halaman web, atribut src untuk mencantumkan source dari sebuah gambar, atribut alt untuk memberikan nama kepada gambar, dan widht serta height untuk mengatur ukuran gambar </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>paragraph</td>
+                <td>
+                    <pre>&lt;p&gt;Iniparagraf&lt;/p&gt;</pre>
+                </td>
+                <td style="text-align: justify;">
+                    <p>Telah terjadi pembunuhan yang diduga pelakunya seorang pejabat</p>
+                </td>
+                <td>Paragraph untuk menambahkan sebuah paragraf biasanya berita pada halaman web </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Strong</td>
+                <td>
+                    <pre>Telah terjadi &lt;Strong&gt;pembunuhan&lt;/Strong&gt; yang diduga pelakunya seorang pejabat.</pre>
+                </td>
+                <td style="text-align: justify"> Telah terjadi
+                    <Strong>pembunuhan</Strong> yang diduga pelakunya seorang pejabat. </td>
+                <td> Strong untuk menebalkan sebuah kalimat yang memiliki informasi yang penting </td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Mark</td>
+                <td>
+                    <pre>Telah terjadi &lt;mark&gt;pembunuhan&lt;/mark&gt; yang diduga pelakunya seorang pejabat.</pre>
+                </td>
+                <td style="text-align: justify"> Telah terjadi <mark>pembunuhan</mark> yang diduga pelakunya seorang pejabat. </td>
+                <td> Mark digunakan untuk meng sorot sebuah text </td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>angker</td>
+                <td>
+                    <pre>&lt;a href="https://class.ipb.ac.id"  &gt; Class IPB &lt;/a&gt; </pre>
+                </td>
+                <td> <a href="https://class.ipb.ac.id"> Class IPB </a> </td>
+                <td> Angker digunakan untuk mendefinisikan sebuah tautan link, dan atribut href untuk menentukan URL yang dituju </td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Style</td>
+                <td>
+                    <pre style="text-align: justify;"> &lt;style&gt; b { color: chocolate;} &lt;/style&gt; <br>
+                        &lt;b&gt; teks ini berwarna cokelat&lt;/b&gt; <br> </pre>
+                </td>
+                <td>
+                    <style>
+                        b {
+                            color: chocolate;
+                        }
+                    </style>
+                    <b> teks ini berwarna cokelat</b>
+                </td>
+                <td> Style digunakan untuk mengedit sebuah style dalam tulisan teks. Style ini dapat dijadikan sebuah atribut maupun elemen, apabila menjadi elemen style akan mengubah seluruh gaya penulisan pada elemen lain seperti pada contoh yakni style
+                    mengubah seluruh gaya penulisan pada elemen yang menggunakan bold </td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>button</td>
+                <td>
+                    <pre>&lt;button onclick="alert ('Terimakasih telah berkunjung')"&gt; klik &lt;/button&gt; </pre>
+                </td>
+                <td><button onclick="alert ('Terimakasih telah berkunjung')">klik</button>
+                </td>
+                <td> Button digunakan untuk membuat sebuah tombol yang dapat dikombinasikan dengan atribut yang ada.
+                </td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>head</td>
+                <td>
+                    <pre>&lt;head&gt; &lt;title&gt; 20 Elements HTML &lt;/title&gt; &lt;/head&gt; </pre>
+                </td>
+                <td><img src="Result head.png" alt="" width="200" height="60">
+
+                    <head>
+                        <title>20 Elements HTML</title>
+                    </head>
+                </td>
+                <td> Head digunakan untuk menyimpan metadata tentang dok HTML, seperti judul, penghubung ke file CSS, skrip JavaScript, dan informasi lainnya yang tidak ditampilkan langsung pada halaman. Head sendiri dapat digabungkan dengan elemen lain seperti
+                    meta ataupun title</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>Select</td>
+                <td>
+                    <pre style="text-align: justify;">&lt;select&gt; name="provinsi" id="provinsi"> <br>
+                        &lt;option value="Jawa Barat"&gt;Jawa Barat&lt;/option&gt; <br>
+                        &lt;option value="Jawa Tengah"&gt;Jawa Tengah&lt;/option&gt; <br>
+                        &lt;option value="Jawa Timur"&gt;Jawa Timur&lt;/option&gt;&lt;/select&gt; <br></pre>
+                </td>
+                <td> <select name="provinsi" id="provinsi">
+                        <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option value="Jawa Timur">Jawa Tmur</option>
+                    </select> </td>
+                <td> Select digunakan untuk membuat sebuah dropdown pilihan</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>Details</td>
+                <td>
+                    <pre style="text-align: justify;"> &lt;details&gt; <br>
+                        &lt;p&gt;Iniparagraf&lt;/p&gt; &lt;/details&gt;<br></pre>
+                </td>
+                <td>
+                    <details style="text-align: justify;">
+                        <p>Telah terjadi pembunuhan yang diduga pelakunya seorang pejabat</p>
+                    </details>
+                </td>
+                <td>Details merupakan suatu widget yang dimana user dapat membuka maupun menutup details dari elemn atau paragraf
+                </td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>Summary</td>
+                <td>
+                    <pre style="text-align: justify;"> &lt;details&gt;<br>
+                        &lt;summary&gt;Kasus pembunuhan&lt;/summary&gt; <br>
+                        &lt;p&gt;Iniparagraf&lt;/p&gt; &lt;/details&gt; <br></pre>
+                </td>
+                <td>
+                    <details style="text-align: justify;">
+                        <summary> Kasus Pembunuhan </summary>
+                        <p>Telah terjadi pembunuhan yang diduga pelakunya seorang pejabat</p>
+                    </details>
+                </td>
+                <td>Summary biasanya digunakan untuk memberikan suatu ringkasan dalam details</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>audio</td>
+                <td>
+                    <pre>&lt;audio controls&gt;&lt;source src="Orange result for embed.mp3" &gt; &lt;/audio&gt;</pre>
+                </td>
+                <td> <audio controls>
+                        <source src="Orange result for audio.mp3">
+                    </audio></td>
+                <td> Audio digunakan untuk menampilkan sebuah audio </td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>Video</td>
+                <td>
+                    <pre>&lt;video controls width="250" height="150"&gt;&lt;source src="Result for video.mp4" &gt; &lt;/video&gt;</pre>
+                </td>
+                <td> <video controls width="250" height="150">
+                        <source src="Result for video.mp4">
+                    </video></td>
+                <td> Video digunakan untuk menampilkan suatu video </td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>abbr</td>
+                <td>
+                    <pre>&lt;p&gt;&lt; abbr title="Attack On Titan" &gt; &lt;/abbr&gt;has become a critical and commercial success.&lt;/p&gt;</pre>
+                </td>
+                <td>
+                    <P><abbr title="Attack On Titan"> AOT </abbr> has become a critical and commercial success.</P>
+                </td>
+                <td> abbr digunakan untuk mendefinisikan singkatan</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>svg </td>
+                <td>
+                    <pre>&lt;svg width="100" height="100" &gt;&lt;circle cx="50" cy="50" r="20"  fill="Blue"&gt; &lt;/svg&gt;</td>
+                    <td > <svg width="100" height="100">
+                        <circle cx="50" cy="50" r="20"  fill="Blue" />
+                      </svg></td>
+                    <td> svg digunakan untuk membuat garis vektor atau gambar yang dapat di skala kan</td>
+                </tr>
+
+                <tr>
+                    <td>18</td>
+                    <td>script </td>
+                    <td style="text-align: justify;"> <pre> &lt;input type="number" id="a"&gt; + &lt;input type="number" id="b"&gt; = <br> &lt;label id="hasil"&gt;&lt;/label&gt;
+                        &lt;button onclick="hitung()"&gt;hitung&lt;/button&gt;<br>
+                        &lt;script&gt; <br>
+                            function hitung(){ <br>
+                                var a=parseInt(document.getElementById("a").value) <br>
+                                var b=parseInt(document.getElementById("b").value) <br>
+                                var hasil = a + b <br>
+                                document.getElementById("hasil").innerHTML=hasil <br>
+                                console.log (hasil)
+                            }
+                        &lt;/script&gt; </pre>
+                </td>
+                <td>
+                    <input type="number" id="a"> + <input type="number" id="b"> = <label id="hasil"></label>
+                    <button onclick="hitung()">hitung</button>
+                    <script>
+                        function hitung() {
+                            var a = parseInt(document.getElementById("a").value)
+                            var b = parseInt(document.getElementById("b").value)
+                            var hasil = a + b
+                            document.getElementById("hasil").innerHTML = hasil
+                            console.log(hasil)
+                        }
+                    </script>
+                </td>
+                <td> Script digunakan untuk menyematkan atau menghubungkan JavaScript ke halaman web, yang memungkinkan interaktivitas, animasi, pemrosesan form, manipulasi DOM, dan fungsionalitas lainnya</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>Meter</td>
+                <td>
+                    <pre>&lt;title&gt; Parameter kesukaan mahasiswa kepada pizza &lt;/title&gt;<br>
+                            &lt;label for="Pizza"&gt;Pizza&lt;/label&gt; <br>
+                            &lt;meter value="0.3"&gt;30%&lt;/meter&gt; <br>
+                            </pre>
+                </td>
+                <td>
+                    <title> Parameter kesukaan mahasiswa kepada pizza</title>
+                    <label for="Pizza">Pizza</label>
+                    <meter value="0.3">30%</meter>
+                </td>
+                <td>Meter digunakan untuk membuat sebuah parameter</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>Tabel</td>
+                <td>
+                    <pre style="text-align: justify;">&lt;table&gt;<br>
+                            &lt;tr&gt;<br>
+                              &lt;th&gt;Nama&lt;/th&gt; <br>
+                              &lt;th&gt;NIM&lt;/th&gt;<br>
+                              &lt;th&gt;Prodi&lt;/th&gt;  <br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                              &lt;td&gt;Hitsugaya&lt;/td&gt; <br>
+                              &lt;td&gt;J040456789&lt;/td&gt; <br>
+                              &lt;td&gt;Teknik Manajemen Lingkungan&lt;/td&gt; <br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                              &lt;td&gt;Mile&lt;/td&gt; <br>
+                              &lt;td&gt;J040404502&lt;/td&gt; <br>
+                              &lt;td&gt;Ekowisata&lt;/td&gt; <br>
+                            &lt;/tr&gt;<br>
+                          &lt;/table&gt;
+                          </pre>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <th>NIM</th>
+                            <th>Prodi</th>
+                        </tr>
+                        <tr>
+                            <td>Hitsugaya</td>
+                            <td>J040456789</td>
+                            <td>Teknik Manajemen Lingkungan</td>
+                        </tr>
+                        <tr>
+                            <td>Mile</td>
+                            <td>J040404502</td>
+                            <td>Ekowisata</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Tabel digunakan untuk membuath sebuah tabel pada web browser</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
